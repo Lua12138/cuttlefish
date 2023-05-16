@@ -10,6 +10,8 @@ for dir in base frontend; do
     popd
 done
 
-apt install ./cuttlefish-base_*.deb ./cuttlefish-user_*.deb
+apt install -y ./cuttlefish-base_*.deb ./cuttlefish-user_*.deb
+
+cd ..
 
 rm -rf android-cuttlefish
