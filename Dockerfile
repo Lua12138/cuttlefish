@@ -11,4 +11,4 @@ RUN git clone https://github.com/google/android-cuttlefish
 
 COPY build-cuttlefish.sh .
 
-RUN build-cuttlefish.sh
+RUN bash build-cuttlefish.sh
